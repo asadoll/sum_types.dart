@@ -12,7 +12,10 @@ dependencies:
   meta: ^1.1.0
   source_gen: ^1.0.0
   sum_types:
-    path: ../sum_types
+    git:
+      url: https://github.com/asadoll/sum_types.dart.git
+      ref: master # branch name
+      path: sum_types
 
 dev_dependencies:
   dependency_validator:
