@@ -11,7 +11,8 @@ dependencies:
   build: ^2.0.1
   meta: ^1.1.0
   source_gen: ^1.0.0
-  sum_types: ^0.3.0
+  sum_types:
+    path: ../sum_types
 
 dev_dependencies:
   dependency_validator:
